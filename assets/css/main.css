@@ -1658,3 +1658,23 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+	
+		  #spin:after {
+			content:"OpenCV";
+			animation: spin 15s linear infinite;
+		  }
+		  @keyframes spin {
+			0% { content:"Web"; }
+			10% { content:"C++"; }
+			20% { content:"Android"; }
+			30% { content:"Java"; }
+			40% { content:"ReactJS"; }
+			50% { content: "Flutter"; }
+			60% { content: "Django"; }
+			70% { content: "Machine Learning"; }
+			80% { content: "Software"; }
+			90% { content: "Python"; }
+			
+		  }
